@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var pdfUrl = 'Assets/CV.pdf';
     var a = document.createElement('a');
     a.href = pdfUrl;
-    a.download = 'archivo.pdf';
+    a.download = 'Curriculum_Vitae_Alejandro_Torres_Herrera.pdf';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
